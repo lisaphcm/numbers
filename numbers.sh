@@ -10,9 +10,9 @@ while [ "$i" -le "$num" ]
 do
 	if [ $((i%2)) -eq 0 ]
 	then
-		echo "$i even"
+		echo "$i Even"
 	else
-		echo "$i odd"
+		echo "$i Odd"
 	fi
 	i=$((i+1))
 done
